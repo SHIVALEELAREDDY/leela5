@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+} */
 /* .container{
     display: grid;
     grid-template-columns: 200px,200px,300px,500px;
@@ -14,11 +14,13 @@
 } */
  .container{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    column-gap: 20px;
-    row-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    column-gap:2rem;
+    row-gap: 2rem;
+    width: 100vw;
  }
  .div{
     background-color: darkslategray;
     color: white;
+    /* width: 30%; */
  }
